@@ -1,0 +1,94 @@
+html,
+body {
+  width: 100%;
+  background-image: url(../lib/img/4e7bf84af65a6007951ebb1724104955.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: pink; */
+  text-align: center;
+}
+h1 {
+  margin-top: 150px;
+  line-height: 100px;
+
+  height: 100px;
+  box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
+    0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+    0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(50px);
+}
+.container {
+  box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
+    0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+    0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(50px);
+  margin-top: 30px;
+  display: flex;
+  height: 300px;
+  line-height: 300px;
+}
+.content {
+  flex: 1;
+  background-color: beige;
+  text-align: center;
+  border: 1px solid rgb(51, 133, 41);
+  font-size: 80px;
+}
+.showArea {
+  flex: 1;
+  background-color: azure;
+  font-size: 20px;
+  border: 1px solid rgb(76, 137, 94);
+}
+.bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+}
+.num {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.num input {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+}
+.num button {
+  width: 25px;
+  height: 50px;
+  font-size: 20px;
+  
+  background-color: #eee;
+}
+.start {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #ccc;
+  background-color: cadetblue;
+  border-radius: 20px;
+  box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
+  0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+  0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(50px);
+}
+.clear {
+    box-shadow:none;
+    backdrop-filter:unset;
+}
+.reset {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  background-color: rgb(254, 95, 95);
+  font-size: 20px;
+}
